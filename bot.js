@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const conv = require('number-to-words')
 
-const prefix = ''
+const prefix = 'T'
 
 const client = new Discord.Client({ disableEveryone: true});
 

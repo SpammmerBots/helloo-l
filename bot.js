@@ -1,13 +1,8 @@
 const Discord = require('discord.js');
-
 const prefix = 'T'
-
 const client = new Discord.Client({ disableEveryone: true});
-
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
-
-
 const ytdl = require('ytdl-core');
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
